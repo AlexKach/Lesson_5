@@ -1,0 +1,266 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Rowdies:300,regular,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Gorditas:regular,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Taviraj:100,100italic,200,200italic,800,800italic,900,900italic&display=swap");
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.block {
+  width: 900px;
+  font-size: 18px;
+  font-family: "Rowdies", "cursive";
+}
+.text {
+  font-weight: 300;
+  font-style: normal;
+  word-spacing: 40px;
+  width: 600px;
+  margin: -30px -50px 0 auto;
+  margin-bottom: 60px;
+  padding: 30px;
+  height: 100px;
+  overflow: auto;
+  color: rgb(3, 22, 128);
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgb(51, 1, 63), 5px 2px 3px rgb(2, 164, 192);
+  text-indent: 40px;
+}
+.text-2 {
+  font-weight: 700;
+  width: 500px;
+  height: 100px;
+
+  margin: 0 auto 35px;
+  padding: 0 15px 15px 15px;
+  color: brown;
+  text-indent: 50px;
+  text-decoration: line-through;
+}
+.text-3 {
+  width: 800px;
+  height: 90px;
+  margin: 0 -20px 20px auto;
+
+  text-align: right;
+  font-weight: 900;
+  text-decoration: overline;
+  color: blueviolet;
+  text-transform: lowercase;
+  line-height: 1.6;
+}
+.text-4 {
+  width: 600px;
+  height: 200px;
+  margin: 0 0 20px 15px;
+  padding-top: 40px;
+
+  letter-spacing: 5px;
+  text-align: center;
+  font-style: italic;
+}
+.text-5 {
+  width: 700px;
+  height: 150px;
+  overflow: auto;
+  padding-left: 120px;
+  margin: 0 0 30px auto;
+  color: chartreuse;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-shadow: 2px 2px 1px rgb(51, 1, 63), 5px 2px 3px rgb(2, 164, 192);
+}
+.text-6 {
+  width: 330px;
+  height: 200px;
+  color: deeppink;
+  margin: 0 auto 20px;
+  text-align: justify;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  letter-spacing: 16px;
+  overflow: auto;
+  text-align: right;
+}
+.text-7 {
+  width: 100px;
+  height: 80px;
+  padding: 3px;
+  text-align: center;
+  font-weight: 700;
+  color: darkgoldenrod;
+  margin: 0 auto 20px 100px;
+  text-shadow: 2px 2px 1px rgb(51, 1, 63), 5px 2px 3px rgb(236, 29, 2);
+}
+.block-max-min {
+  font-family: "Taviraj", "serif";
+  font-size: 18px;
+}
+.text-max-min1 {
+  font-weight: 900;
+  font-style: italic;
+  max-width: 700px;
+  max-height: 330px;
+  overflow: auto;
+  margin-bottom: 40px;
+  color: darkgreen;
+  text-align: justify;
+  text-decoration: line-through;
+  line-height: 2;
+  text-indent: 50px;
+  letter-spacing: 40px;
+}
+.text-max-min2 {
+  font-weight: 100;
+  font-style: italic;
+  min-width: 700px;
+  min-height: 100px;
+  height: 400px;
+  margin-bottom: 40px;
+  padding: 20px 50px 40px;
+  text-align: right;
+  color: blue;
+  text-shadow: 0px 1px 1px rgb(172, 233, 6), 1px 2px 3px rgb(236, 29, 2);
+  letter-spacing: 1px;
+}
+.text-max-min3 {
+  font-weight: 800;
+  min-width: 600px;
+  min-height: 200px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 90px;
+  text-transform: uppercase;
+  word-spacing: 9px;
+  color: chartreuse;
+  text-shadow: 0px 1px 1px rgb(30, 36, 15), 2px 1px 1px rgb(161, 67, 13);
+}
+.text-max-min4 {
+  font-weight: 200;
+  max-width: 700px;
+  max-height: 300px;
+  overflow: auto;
+  margin-bottom: 40px;
+  text-align: justify;
+  color: darkcyan;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  line-height: 1.4;
+}
+.text-max-min5 {
+  font-weight: 900;
+  max-height: 220px;
+  max-width: 400px;
+  margin-bottom: 40px;
+  text-indent: 50px;
+  color: darkmagenta;
+  text-decoration: underline;
+}
+.text-max-min6 {
+  font-weight: 100;
+  min-width: 400px;
+  min-height: 200px;
+  margin-bottom: 40px;
+  text-align: right;
+  color: firebrick;
+  padding-left: 900px;
+  letter-spacing: 1px;
+  text-decoration: line-through;
+}
+.text-max-min7 {
+  font-weight: 800;
+  font-style: italic;
+  min-height: auto;
+  min-width: auto;
+  word-spacing: 20px;
+  text-transform: capitalize;
+  line-height: 1.5;
+  padding: 30px;
+  margin: 0 40px 20px 10px;
+  color: rgb(5, 173, 5);
+  text-shadow: 1px 1px 2px rgb(122, 1, 1), 1px 2px 0px rgb(151, 214, 4);
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+.text-max-min8 {
+  font-weight: 200;
+  font-style: italic;
+  min-width: 100px;
+  max-height: 20px;
+  overflow: auto;
+  word-spacing: 20px;
+  text-transform: lowercase;
+  text-decoration: line-through;
+  color: chocolate;
+  text-indent: 200px;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.image-example {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.image-example-2 {
+  width: 300px;
+  margin-bottom: 40px;
+}
+.inline-span {
+  display: block;
+  text-align: center;
+  color: chocolate;
+}
+.margin-50 {
+  display: inline-block;
+  margin-bottom: 50px;
+  padding: 50px;
+  color: crimson;
+  text-decoration: line-through;
+}
+.inline-span-2 {
+  display: inline-block;
+  margin: 40px 40px;
+  color: darkgreen;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.inline-span-3 {
+  color: darkkhaki;
+  word-spacing: 50px;
+  text-transform: lowercase;
+  font-size: 40px;
+  font-weight: 900;
+}
+.example-link {
+  font-family: "Gorditas", "cursive";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-indent: 50px;
+  line-height: 1.8;
+  text-decoration: overline;
+  color: crimson;
+}
+.link {
+  display: inline-block;
+  color: rgb(27, 209, 81);
+  margin: 30px 50px;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(122, 1, 1), 1px 2px 0px rgb(151, 214, 4);
+}
+.example {
+  font-family: "Gorditas", "cursive";
+  font-size: larger;
+  line-height: 1.7;
+}
